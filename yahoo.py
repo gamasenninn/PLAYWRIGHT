@@ -11,7 +11,7 @@ with sync_playwright() as p:
     page.goto("https://www.yahoo.co.jp/")
 
 
-    page.pause()
+    #page.pause()
 
     page.goto("https://www.yahoo.co.jp/")
 
