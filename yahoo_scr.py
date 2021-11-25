@@ -1,7 +1,7 @@
 from playwright.sync_api import Playwright, sync_playwright
 import math
 
-HEADLESS = True
+HEADLESS = False
 CATEGORY = '2084244599'  #トラクター車体
 PERPAGE = 100
 
